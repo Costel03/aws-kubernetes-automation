@@ -1,0 +1,4 @@
+---
+- import_playbook: playbooks/01-common-setup.yml
+- import_playbook: playbooks/02-master-setup.yml
+- import_playbook: playbooks/03-worker-setup.yml

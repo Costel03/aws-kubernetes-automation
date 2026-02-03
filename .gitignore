@@ -1,0 +1,66 @@
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/*.tfvars
+terraform/.terraform.tfstate.lock.info
+
+# Ansible
+ansible/*.retry
+ansible/inventory
+ansible/inventory.ini
+
+# SSH Keys (never commit private keys)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Kubeconfig
+kubeconfig
+*.kubeconfig
+join-command.sh
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+env/
+*.egg-info/
+
+# Docker
+.dockerignore
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*_OLD.md
+*.backup
+*.bak
+
+# AWS artifacts
+aws/
+awscliv2.zip
+terraform_*.zip
